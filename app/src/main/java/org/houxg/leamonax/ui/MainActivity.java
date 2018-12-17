@@ -112,6 +112,7 @@ public class MainActivity extends BaseActivity implements Navigation.Callback {
     protected void onResume() {
         super.onResume();
         mNavigation.onResume();
+        syncNotes();
     }
 
     @Override
